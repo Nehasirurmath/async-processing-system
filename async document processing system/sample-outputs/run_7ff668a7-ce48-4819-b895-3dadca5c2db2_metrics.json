@@ -1,0 +1,767 @@
+{
+  "run_id": "7ff668a7-ce48-4819-b895-3dadca5c2db2",
+  "numeric_stats": [
+    {
+      "q1": 1105.0,
+      "q3": 1503.0,
+      "max": 1871,
+      "min": 1020,
+      "mean": 1349.45,
+      "count": 20,
+      "median": 1300.0,
+      "std_dev": 273.44,
+      "null_count": 0,
+      "column_name": "CustomerID"
+    },
+    {
+      "q1": 47951.0,
+      "q3": 85001.0,
+      "max": 90001,
+      "min": 10001,
+      "mean": 62941.0,
+      "count": 20,
+      "median": 85001.0,
+      "std_dev": 32700.562,
+      "null_count": 0,
+      "column_name": "CustomerZip"
+    },
+    {
+      "q1": 408.82,
+      "q3": 634.158,
+      "max": 927.87,
+      "min": 104.17,
+      "mean": 517.65,
+      "count": 20,
+      "median": 492.015,
+      "std_dev": 222.97,
+      "null_count": 0,
+      "column_name": "ProductPrice"
+    },
+    {
+      "q1": 0.073,
+      "q3": 0.242,
+      "max": 0.3,
+      "min": 0.01,
+      "mean": 0.147,
+      "count": 20,
+      "median": 0.155,
+      "std_dev": 0.095,
+      "null_count": 0,
+      "column_name": "ProductDiscount"
+    },
+    {
+      "q1": 11.27,
+      "q3": 16.152,
+      "max": 19.41,
+      "min": 5.44,
+      "mean": 13.414,
+      "count": 20,
+      "median": 13.895,
+      "std_dev": 3.607,
+      "null_count": 0,
+      "column_name": "ShippingCost"
+    },
+    {
+      "q1": 200.147,
+      "q3": 393.4,
+      "max": 481.16,
+      "min": 22.28,
+      "mean": 293.704,
+      "count": 20,
+      "median": 295.445,
+      "std_dev": 137.884,
+      "null_count": 0,
+      "column_name": "RefundAmount"
+    }
+  ],
+  "categorical_stats": [
+    {
+      "count": 20,
+      "null_count": 0,
+      "top_values": [
+        {
+          "count": 2,
+          "value": "Alice"
+        },
+        {
+          "count": 1,
+          "value": "David"
+        },
+        {
+          "count": 1,
+          "value": "Bob"
+        },
+        {
+          "count": 1,
+          "value": "Charlie"
+        },
+        {
+          "count": 1,
+          "value": "Eva"
+        }
+      ],
+      "cardinality": 19,
+      "column_name": "CustomerName",
+      "max_count_freq": 2,
+      "min_count_freq": 1,
+      "lowest_freq_value": "David",
+      "highest_freq_value": "Alice"
+    },
+    {
+      "count": 20,
+      "null_count": 0,
+      "top_values": [
+        {
+          "count": 1,
+          "value": "david.jones@gmail.com"
+        },
+        {
+          "count": 1,
+          "value": "bob.smith@yahoo.com"
+        },
+        {
+          "count": 1,
+          "value": "charlie.brown@outlook.com"
+        },
+        {
+          "count": 1,
+          "value": "alice.wilson@hotmail.com"
+        },
+        {
+          "count": 1,
+          "value": "eva.miller@gmail.com"
+        }
+      ],
+      "cardinality": 20,
+      "column_name": "CustomerEmail",
+      "max_count_freq": 1,
+      "min_count_freq": 1,
+      "lowest_freq_value": "david.jones@gmail.com",
+      "highest_freq_value": "david.jones@gmail.com"
+    },
+    {
+      "count": 20,
+      "null_count": 0,
+      "top_values": [
+        {
+          "count": 1,
+          "value": "123 Maple St, Springfield, IL 62704, USA"
+        },
+        {
+          "count": 1,
+          "value": "456 Oak Ave, Denver, CO 80202, USA"
+        },
+        {
+          "count": 1,
+          "value": "789 Pine Rd, Seattle, WA 98101, USA"
+        },
+        {
+          "count": 1,
+          "value": "101 Birch Ln, Miami, FL 33101, USA"
+        },
+        {
+          "count": 1,
+          "value": "202 Cedar Blvd, Dallas, TX 75201, USA"
+        }
+      ],
+      "cardinality": 20,
+      "column_name": "CustomerAddress",
+      "max_count_freq": 1,
+      "min_count_freq": 1,
+      "lowest_freq_value": "123 Maple St, Springfield, IL 62704, USA",
+      "highest_freq_value": "123 Maple St, Springfield, IL 62704, USA"
+    },
+    {
+      "count": 20,
+      "null_count": 0,
+      "top_values": [
+        {
+          "count": 1,
+          "value": "Springfield"
+        },
+        {
+          "count": 1,
+          "value": "Denver"
+        },
+        {
+          "count": 1,
+          "value": "Seattle"
+        },
+        {
+          "count": 1,
+          "value": "Miami"
+        },
+        {
+          "count": 1,
+          "value": "Dallas"
+        }
+      ],
+      "cardinality": 20,
+      "column_name": "CustomerCity",
+      "max_count_freq": 1,
+      "min_count_freq": 1,
+      "lowest_freq_value": "Springfield",
+      "highest_freq_value": "Springfield"
+    },
+    {
+      "count": 20,
+      "null_count": 0,
+      "top_values": [
+        {
+          "count": 6,
+          "value": "Tablet"
+        },
+        {
+          "count": 5,
+          "value": "Monitor"
+        },
+        {
+          "count": 3,
+          "value": "Laptop"
+        },
+        {
+          "count": 3,
+          "value": "Keyboard"
+        },
+        {
+          "count": 3,
+          "value": "Smartphone"
+        }
+      ],
+      "cardinality": 5,
+      "column_name": "ProductName",
+      "max_count_freq": 6,
+      "min_count_freq": 3,
+      "lowest_freq_value": "Laptop",
+      "highest_freq_value": "Tablet"
+    },
+    {
+      "count": 20,
+      "null_count": 0,
+      "top_values": [
+        {
+          "count": 8,
+          "value": "Electronics"
+        },
+        {
+          "count": 6,
+          "value": "Office Supplies"
+        },
+        {
+          "count": 6,
+          "value": "Accessories"
+        }
+      ],
+      "cardinality": 3,
+      "column_name": "ProductCategory",
+      "max_count_freq": 8,
+      "min_count_freq": 6,
+      "lowest_freq_value": "Office Supplies",
+      "highest_freq_value": "Electronics"
+    },
+    {
+      "count": 20,
+      "null_count": 0,
+      "top_values": [
+        {
+          "count": 8,
+          "value": "Pending"
+        },
+        {
+          "count": 5,
+          "value": "Cancelled"
+        },
+        {
+          "count": 4,
+          "value": "Shipped"
+        },
+        {
+          "count": 3,
+          "value": "Delivered"
+        }
+      ],
+      "cardinality": 4,
+      "column_name": "OrderStatus",
+      "max_count_freq": 8,
+      "min_count_freq": 3,
+      "lowest_freq_value": "Delivered",
+      "highest_freq_value": "Pending"
+    },
+    {
+      "count": 20,
+      "null_count": 0,
+      "top_values": [
+        {
+          "count": 7,
+          "value": "Credit Card"
+        },
+        {
+          "count": 7,
+          "value": "PayPal"
+        },
+        {
+          "count": 6,
+          "value": "Bank Transfer"
+        }
+      ],
+      "cardinality": 3,
+      "column_name": "PaymentMethod",
+      "max_count_freq": 7,
+      "min_count_freq": 6,
+      "lowest_freq_value": "Bank Transfer",
+      "highest_freq_value": "Credit Card"
+    },
+    {
+      "count": 20,
+      "null_count": 0,
+      "top_values": [
+        {
+          "count": 10,
+          "value": "Standard"
+        },
+        {
+          "count": 7,
+          "value": "Express"
+        },
+        {
+          "count": 3,
+          "value": "Overnight"
+        }
+      ],
+      "cardinality": 3,
+      "column_name": "ShippingMethod",
+      "max_count_freq": 10,
+      "min_count_freq": 3,
+      "lowest_freq_value": "Overnight",
+      "highest_freq_value": "Standard"
+    },
+    {
+      "count": 20,
+      "null_count": 0,
+      "top_values": [
+        {
+          "count": 14,
+          "value": "Returned"
+        },
+        {
+          "count": 6,
+          "value": "Requested"
+        }
+      ],
+      "cardinality": 2,
+      "column_name": "ReturnStatus",
+      "max_count_freq": 14,
+      "min_count_freq": 6,
+      "lowest_freq_value": "Requested",
+      "highest_freq_value": "Returned"
+    },
+    {
+      "count": 20,
+      "null_count": 0,
+      "top_values": [
+        {
+          "count": 7,
+          "value": "Wrong Item"
+        },
+        {
+          "count": 7,
+          "value": "Not Needed"
+        },
+        {
+          "count": 6,
+          "value": "Damaged"
+        }
+      ],
+      "cardinality": 3,
+      "column_name": "ReturnReason",
+      "max_count_freq": 7,
+      "min_count_freq": 6,
+      "lowest_freq_value": "Damaged",
+      "highest_freq_value": "Wrong Item"
+    }
+  ],
+  "date_stats": [
+    {
+      "count": 20,
+      "max_date": "2023-12-01T00:00:00",
+      "min_date": "2023-01-13T00:00:00",
+      "null_count": 0,
+      "column_name": "DeliveryDate"
+    }
+  ],
+  "correlation_stats": {
+    "CustomerID": {
+      "CustomerID": 1.0,
+      "CustomerZip": 0.022,
+      "ProductPrice": -0.376,
+      "RefundAmount": 0.338,
+      "ShippingCost": 0.315,
+      "ProductDiscount": 0.252
+    },
+    "CustomerZip": {
+      "CustomerID": 0.022,
+      "CustomerZip": 1.0,
+      "ProductPrice": -0.138,
+      "RefundAmount": 0.156,
+      "ShippingCost": -0.514,
+      "ProductDiscount": -0.121
+    },
+    "ProductPrice": {
+      "CustomerID": -0.376,
+      "CustomerZip": -0.138,
+      "ProductPrice": 1.0,
+      "RefundAmount": -0.416,
+      "ShippingCost": 0.125,
+      "ProductDiscount": -0.317
+    },
+    "RefundAmount": {
+      "CustomerID": 0.338,
+      "CustomerZip": 0.156,
+      "ProductPrice": -0.416,
+      "RefundAmount": 1.0,
+      "ShippingCost": -0.142,
+      "ProductDiscount": 0.404
+    },
+    "ShippingCost": {
+      "CustomerID": 0.315,
+      "CustomerZip": -0.514,
+      "ProductPrice": 0.125,
+      "RefundAmount": -0.142,
+      "ShippingCost": 1.0,
+      "ProductDiscount": 0.013
+    },
+    "ProductDiscount": {
+      "CustomerID": 0.252,
+      "CustomerZip": -0.121,
+      "ProductPrice": -0.317,
+      "RefundAmount": 0.404,
+      "ShippingCost": 0.013,
+      "ProductDiscount": 1.0
+    }
+  },
+  "pps_stats": {
+    "CustomerID": {
+      "CustomerID": 1.0,
+      "CustomerZip": 0.0,
+      "OrderStatus": 0.0,
+      "ProductName": 0.0,
+      "CustomerCity": 0.0,
+      "CustomerName": 0.0,
+      "ProductPrice": 0.0,
+      "RefundAmount": 0.0,
+      "ReturnReason": 0.0,
+      "ReturnStatus": 0.0,
+      "ShippingCost": 0.0,
+      "CustomerEmail": 0.0,
+      "PaymentMethod": 0.0,
+      "ShippingMethod": 0.027,
+      "CustomerAddress": 0.0,
+      "ProductCategory": 0.0,
+      "ProductDiscount": 0.0
+    },
+    "CustomerZip": {
+      "CustomerID": 0.0,
+      "CustomerZip": 1.0,
+      "OrderStatus": 0.0,
+      "ProductName": 0.246,
+      "CustomerCity": 0.0,
+      "CustomerName": 0.0,
+      "ProductPrice": 0.0,
+      "RefundAmount": 0.0,
+      "ReturnReason": 0.0,
+      "ReturnStatus": 0.0,
+      "ShippingCost": 0.0,
+      "CustomerEmail": 0.0,
+      "PaymentMethod": 0.163,
+      "ShippingMethod": 0.0,
+      "CustomerAddress": 0.0,
+      "ProductCategory": 0.0,
+      "ProductDiscount": 0.0
+    },
+    "OrderStatus": {
+      "CustomerID": 0.0,
+      "CustomerZip": 0.0,
+      "OrderStatus": 1.0,
+      "ProductName": 0.0,
+      "CustomerCity": 0.0,
+      "CustomerName": 0.0,
+      "ProductPrice": 0.0,
+      "RefundAmount": 0.0,
+      "ReturnReason": 0.0,
+      "ReturnStatus": 0.0,
+      "ShippingCost": 0.02,
+      "CustomerEmail": 0.0,
+      "PaymentMethod": 0.075,
+      "ShippingMethod": 0.154,
+      "CustomerAddress": 0.0,
+      "ProductCategory": 0.0,
+      "ProductDiscount": 0.0
+    },
+    "ProductName": {
+      "CustomerID": 0.0,
+      "CustomerZip": 0.0,
+      "OrderStatus": 0.0,
+      "ProductName": 1.0,
+      "CustomerCity": 0.0,
+      "CustomerName": 0.0,
+      "ProductPrice": 0.0,
+      "RefundAmount": 0.0,
+      "ReturnReason": 0.0,
+      "ReturnStatus": 0.0,
+      "ShippingCost": 0.036,
+      "CustomerEmail": 0.0,
+      "PaymentMethod": 0.115,
+      "ShippingMethod": 0.0,
+      "CustomerAddress": 0.0,
+      "ProductCategory": 0.0,
+      "ProductDiscount": 0.0
+    },
+    "CustomerCity": {
+      "CustomerID": 0.0,
+      "CustomerZip": 0.0,
+      "OrderStatus": 0.0,
+      "ProductName": 0.0,
+      "CustomerCity": 1.0,
+      "CustomerName": 0.0,
+      "ProductPrice": 0.0,
+      "RefundAmount": 0.0,
+      "ReturnReason": 0.0,
+      "ReturnStatus": 0.0,
+      "ShippingCost": 0.0,
+      "CustomerEmail": 0.0,
+      "PaymentMethod": 0.0,
+      "ShippingMethod": 0.0,
+      "CustomerAddress": 0.0,
+      "ProductCategory": 0.0,
+      "ProductDiscount": 0.0
+    },
+    "CustomerName": {
+      "CustomerID": 0.0,
+      "CustomerZip": 0.0,
+      "OrderStatus": 0.0,
+      "ProductName": 0.0,
+      "CustomerCity": 0.0,
+      "CustomerName": 1.0,
+      "ProductPrice": 0.0,
+      "RefundAmount": 0.0,
+      "ReturnReason": 0.0,
+      "ReturnStatus": 0.01,
+      "ShippingCost": 0.0,
+      "CustomerEmail": 0.0,
+      "PaymentMethod": 0.0,
+      "ShippingMethod": 0.0,
+      "CustomerAddress": 0.0,
+      "ProductCategory": 0.0,
+      "ProductDiscount": 0.0
+    },
+    "ProductPrice": {
+      "CustomerID": 0.0,
+      "CustomerZip": 0.0,
+      "OrderStatus": 0.095,
+      "ProductName": 0.129,
+      "CustomerCity": 0.0,
+      "CustomerName": 0.0,
+      "ProductPrice": 1.0,
+      "RefundAmount": 0.123,
+      "ReturnReason": 0.116,
+      "ReturnStatus": 0.0,
+      "ShippingCost": 0.0,
+      "CustomerEmail": 0.0,
+      "PaymentMethod": 0.088,
+      "ShippingMethod": 0.237,
+      "CustomerAddress": 0.0,
+      "ProductCategory": 0.0,
+      "ProductDiscount": 0.0
+    },
+    "RefundAmount": {
+      "CustomerID": 0.0,
+      "CustomerZip": 0.0,
+      "OrderStatus": 0.0,
+      "ProductName": 0.178,
+      "CustomerCity": 0.0,
+      "CustomerName": 0.0,
+      "ProductPrice": 0.0,
+      "RefundAmount": 1.0,
+      "ReturnReason": 0.042,
+      "ReturnStatus": 0.464,
+      "ShippingCost": 0.0,
+      "CustomerEmail": 0.0,
+      "PaymentMethod": 0.104,
+      "ShippingMethod": 0.174,
+      "CustomerAddress": 0.0,
+      "ProductCategory": 0.0,
+      "ProductDiscount": 0.0
+    },
+    "ReturnReason": {
+      "CustomerID": 0.077,
+      "CustomerZip": 0.0,
+      "OrderStatus": 0.0,
+      "ProductName": 0.0,
+      "CustomerCity": 0.0,
+      "CustomerName": 0.0,
+      "ProductPrice": 0.0,
+      "RefundAmount": 0.0,
+      "ReturnReason": 1.0,
+      "ReturnStatus": 0.096,
+      "ShippingCost": 0.0,
+      "CustomerEmail": 0.0,
+      "PaymentMethod": 0.017,
+      "ShippingMethod": 0.0,
+      "CustomerAddress": 0.0,
+      "ProductCategory": 0.0,
+      "ProductDiscount": 0.0
+    },
+    "ReturnStatus": {
+      "CustomerID": 0.0,
+      "CustomerZip": 0.0,
+      "OrderStatus": 0.0,
+      "ProductName": 0.0,
+      "CustomerCity": 0.0,
+      "CustomerName": 0.0,
+      "ProductPrice": 0.0,
+      "RefundAmount": 0.058,
+      "ReturnReason": 0.067,
+      "ReturnStatus": 1.0,
+      "ShippingCost": 0.0,
+      "CustomerEmail": 0.0,
+      "PaymentMethod": 0.0,
+      "ShippingMethod": 0.0,
+      "CustomerAddress": 0.0,
+      "ProductCategory": 0.0,
+      "ProductDiscount": 0.005
+    },
+    "ShippingCost": {
+      "CustomerID": 0.0,
+      "CustomerZip": 0.0,
+      "OrderStatus": 0.059,
+      "ProductName": 0.129,
+      "CustomerCity": 0.0,
+      "CustomerName": 0.0,
+      "ProductPrice": 0.0,
+      "RefundAmount": 0.0,
+      "ReturnReason": 0.0,
+      "ReturnStatus": 0.051,
+      "ShippingCost": 1.0,
+      "CustomerEmail": 0.0,
+      "PaymentMethod": 0.483,
+      "ShippingMethod": 0.215,
+      "CustomerAddress": 0.0,
+      "ProductCategory": 0.0,
+      "ProductDiscount": 0.0
+    },
+    "CustomerEmail": {
+      "CustomerID": 0.0,
+      "CustomerZip": 0.0,
+      "OrderStatus": 0.0,
+      "ProductName": 0.0,
+      "CustomerCity": 0.0,
+      "CustomerName": 0.0,
+      "ProductPrice": 0.0,
+      "RefundAmount": 0.0,
+      "ReturnReason": 0.0,
+      "ReturnStatus": 0.0,
+      "ShippingCost": 0.0,
+      "CustomerEmail": 1.0,
+      "PaymentMethod": 0.0,
+      "ShippingMethod": 0.0,
+      "CustomerAddress": 0.0,
+      "ProductCategory": 0.0,
+      "ProductDiscount": 0.0
+    },
+    "PaymentMethod": {
+      "CustomerID": 0.0,
+      "CustomerZip": 0.0,
+      "OrderStatus": 0.0,
+      "ProductName": 0.0,
+      "CustomerCity": 0.0,
+      "CustomerName": 0.0,
+      "ProductPrice": 0.0,
+      "RefundAmount": 0.0,
+      "ReturnReason": 0.0,
+      "ReturnStatus": 0.0,
+      "ShippingCost": 0.0,
+      "CustomerEmail": 0.0,
+      "PaymentMethod": 1.0,
+      "ShippingMethod": 0.0,
+      "CustomerAddress": 0.0,
+      "ProductCategory": 0.0,
+      "ProductDiscount": 0.0
+    },
+    "ShippingMethod": {
+      "CustomerID": 0.0,
+      "CustomerZip": 0.0,
+      "OrderStatus": 0.0,
+      "ProductName": 0.0,
+      "CustomerCity": 0.0,
+      "CustomerName": 0.0,
+      "ProductPrice": 0.02,
+      "RefundAmount": 0.0,
+      "ReturnReason": 0.0,
+      "ReturnStatus": 0.0,
+      "ShippingCost": 0.0,
+      "CustomerEmail": 0.0,
+      "PaymentMethod": 0.0,
+      "ShippingMethod": 1.0,
+      "CustomerAddress": 0.0,
+      "ProductCategory": 0.0,
+      "ProductDiscount": 0.0
+    },
+    "CustomerAddress": {
+      "CustomerID": 0.0,
+      "CustomerZip": 0.0,
+      "OrderStatus": 0.0,
+      "ProductName": 0.0,
+      "CustomerCity": 0.0,
+      "CustomerName": 0.0,
+      "ProductPrice": 0.0,
+      "RefundAmount": 0.0,
+      "ReturnReason": 0.0,
+      "ReturnStatus": 0.0,
+      "ShippingCost": 0.0,
+      "CustomerEmail": 0.0,
+      "PaymentMethod": 0.0,
+      "ShippingMethod": 0.0,
+      "CustomerAddress": 1.0,
+      "ProductCategory": 0.0,
+      "ProductDiscount": 0.0
+    },
+    "ProductCategory": {
+      "CustomerID": 0.0,
+      "CustomerZip": 0.0,
+      "OrderStatus": 0.0,
+      "ProductName": 0.0,
+      "CustomerCity": 0.0,
+      "CustomerName": 0.0,
+      "ProductPrice": 0.0,
+      "RefundAmount": 0.0,
+      "ReturnReason": 0.0,
+      "ReturnStatus": 0.0,
+      "ShippingCost": 0.011,
+      "CustomerEmail": 0.0,
+      "PaymentMethod": 0.008,
+      "ShippingMethod": 0.531,
+      "CustomerAddress": 0.0,
+      "ProductCategory": 1.0,
+      "ProductDiscount": 0.0
+    },
+    "ProductDiscount": {
+      "CustomerID": 0.0,
+      "CustomerZip": 0.0,
+      "OrderStatus": 0.0,
+      "ProductName": 0.0,
+      "CustomerCity": 0.0,
+      "CustomerName": 0.0,
+      "ProductPrice": 0.0,
+      "RefundAmount": 0.0,
+      "ReturnReason": 0.084,
+      "ReturnStatus": 0.462,
+      "ShippingCost": 0.0,
+      "CustomerEmail": 0.0,
+      "PaymentMethod": 0.061,
+      "ShippingMethod": 0.079,
+      "CustomerAddress": 0.0,
+      "ProductCategory": 0.0,
+      "ProductDiscount": 1.0
+    }
+  }
+}

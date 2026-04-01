@@ -1,0 +1,21 @@
+CustomerID,CustomerName,CustomerEmail,CustomerAddress,CustomerCity,CustomerZip,ProductName,ProductCategory,ProductPrice,ProductDiscount,DeliveryDate,OrderStatus,PaymentMethod,ShippingMethod,ShippingCost,ReturnStatus,ReturnReason,RefundAmount
+1102,David,david.jones@gmail.com,"123 Maple St, Springfield, IL 62704, USA",Springfield,10001,Laptop,Office Supplies,822.57,0.26,05/01/23,Cancelled,Credit Card,Standard,11.28,Requested,Wrong Item,345
+1435,Bob,bob.smith@yahoo.com,"456 Oak Ave, Denver, CO 80202, USA",Denver,85001,Tablet,Office Supplies,104.17,0.15,06/01/23,Shipped,Bank Transfer,Overnight,8.05,Requested,Not Needed,345.05
+1860,Charlie,charlie.brown@outlook.com,"789 Pine Rd, Seattle, WA 98101, USA",Seattle,10001,Tablet,Electronics,400.15,0.27,07/01/23,Shipped,Credit Card,Express,17.61,Returned,Damaged,465.3
+1270,Alice,alice.wilson@hotmail.com,"101 Birch Ln, Miami, FL 33101, USA",Miami,90001,Keyboard,Electronics,458.35,0.24,08/01/23,Pending,PayPal,Overnight,7.61,Returned,Not Needed,248.66
+1106,Eva,eva.miller@gmail.com,"202 Cedar Blvd, Dallas, TX 75201, USA",Dallas,10001,Monitor,Accessories,583.66,0.13,09/01/23,Pending,PayPal,Standard,19.41,Returned,Not Needed,115.13
+1071,Alice,alice.thomas@yahoo.com,"303 Walnut Dr, Phoenix, AZ 85001, USA",Phoenix,60601,Smartphone,Office Supplies,927.87,0.01,10/01/23,Cancelled,Credit Card,Standard,11.24,Returned,Wrong Item,22.28
+1700,Roy,roy.davis@aol.com,"404 Elm St, Boston, MA 02101, USA",Boston,10001,Monitor,Office Supplies,411.71,0.08,11/01/23,Pending,Bank Transfer,Standard,17.69,Returned,Damaged,207.82
+1020,John,john.clark@icloud.com,"505 Aspen Ct, Nashville, TN 37201, USA",Nashville,85001,Monitor,Electronics,412.26,0.16,12/01/23,Pending,Credit Card,Express,14.43,Requested,Wrong Item,150.96
+1614,Sarah,sarah.white@gmail.com,"606 Hickory Way, Chicago, IL 60601, USA",Chicago,77001,Tablet,Accessories,763.75,0.19,13/01/23,Shipped,Credit Card,Overnight,16.03,Returned,Damaged,380.54
+1121,George,george.martin@outlook.com,"707 Sycamore Pl, San Diego, CA 92101, USA",San Diego,10001,Monitor,Electronics,507,0.08,14/01/23,Delivered,Bank Transfer,Express,16.52,Returned,Not Needed,177.13
+1466,Amy,amy.johnson@yahoo.com,"808 Chestnut St, Austin, TX 78701, USA",Austin,85001,Laptop,Electronics,302.14,0.04,15/01/23,Pending,Bank Transfer,Express,12.57,Returned,Damaged,474.54
+1214,Peter,peter.lee@hotmail.com,"909 Redwood Ave, Philadelphia, PA 19101, USA",Philadelphia,85001,Tablet,Electronics,507.2,0.25,16/01/23,Delivered,PayPal,Standard,13.15,Requested,Wrong Item,481.16
+1330,Megan,megan.adams@gmail.com,"111 Oakwood Dr, San Francisco, CA 94101, USA",San Francisco,60601,Laptop,Electronics,226.77,0.3,17/01/23,Pending,Bank Transfer,Express,12.71,Returned,Wrong Item,310.45
+1458,Joseph,joseph.baker@gmail.com,"222 Willow St, Las Vegas, NV 89101, USA",Las Vegas,85001,Smartphone,Office Supplies,258.75,0.16,18/01/23,Pending,PayPal,Express,13.82,Requested,Wrong Item,464.33
+1087,Mike,mike.harris@yahoo.com,"333 Magnolia Ln, Atlanta, GA 30301, USA",Atlanta,85001,Tablet,Office Supplies,548.53,0.05,19/01/23,Cancelled,Bank Transfer,Standard,5.44,Returned,Damaged,380.43
+1372,Thomas,thomas.king@outlook.com,"444 Palm Ct, Houston, TX 77001, USA",Houston,85001,Smartphone,Electronics,477.03,0.08,20/01/23,Cancelled,Credit Card,Express,10.93,Returned,Not Needed,273.43
+1099,Wendy,wendy.evans@gmail.com,"555 Sequoia Rd, Orlando, FL 32801, USA",Orlando,85001,Tablet,Accessories,923.36,0.01,21/01/23,Cancelled,PayPal,Standard,14.09,Returned,Not Needed,90.15
+1871,Melissia,melissia.turner@icloud.com,"666 Cypress Pl, Detroit, MI 48201, USA",Detroit,90001,Keyboard,Accessories,426.15,0.27,22/01/23,Delivered,PayPal,Standard,13.97,Returned,Damaged,229.3
+1663,Adam,adam.wright@hotmail.com,"777 Spruce Blvd, Charlotte, NC 28201, USA",Charlotte,90001,Monitor,Accessories,622.53,0.04,23/01/23,Shipped,PayPal,Standard,16.89,Returned,Wrong Item,280.44
+1130,Matthew,matthew.anderson@yahoo.com,"888 Poplar Dr, Portland, OR 97201, USA",Portland,60601,Keyboard,Accessories,669.04,0.17,24/01/23,Pending,Credit Card,Standard,14.83,Requested,Not Needed,431.98
